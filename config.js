@@ -9,8 +9,8 @@ module.exports = {
         API_KEY: process.env.HEROKU_API_KEY,
         APP_NAME: process.env.HEROKU_APP_NAME
     },
-    WEB : process.env.WEB || "https://tinyurl.com/ycks3s8p",//your website url
-    YT : process.env.YT || "https://tinyurl.com/36r3668n",//your yt url
-    VIDEO : "https://tinyurl.com/3x38ajmn",//turtorial video to watch how to use bot
-    WAGRP : process.env.WAGRP || 'https://tinyurl.com/f5wh55mk',//your wa group url
+    WEB : process.env.WEB || "",//your website url
+    YT : process.env.YT || "",//your yt url
+    VIDEO : "",//turtorial video to watch how to use bot
+    WAGRP : process.env.WAGRP || '',//your wa group url
 };
